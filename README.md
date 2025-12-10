@@ -24,6 +24,10 @@ ROS 2의 `diagnostic_updater`를 기반으로 구현되어 있으며, 각 센서
 
 ## 노드 및 기능 설명
 
+<img width="578" height="629" alt="image" src="https://github.com/user-attachments/assets/9e449cc3-279e-42a8-bde0-44a840493577" />
+
+
+
 패키지는 센서 유형별로 **4개의 독립적인 노드**를 제공한다.
 
 ---
