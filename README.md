@@ -24,7 +24,7 @@ ROS 2의 `diagnostic_updater`를 기반으로 구현되어 있으며, 각 센서
 
 ## 노드 및 기능 설명
 
-<img width="578" height="629" alt="image" src="https://github.com/user-attachments/assets/9e449cc3-279e-42a8-bde0-44a840493577" />
+<img width="616" height="697" alt="image" src="https://github.com/user-attachments/assets/bb2adf10-d949-4e0d-9693-a199b7e25390" />
 
 
 
