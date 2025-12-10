@@ -1,0 +1,29 @@
+<launch>
+  <node pkg="sensor_diagnostic" exec="lidar_diagnostic_node" name="left_lidar_diagnostic" output="screen" >
+    <param name="sensor_name" value="left_lidar"  />
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="lidar_diagnostic_node" name="right_lidar_diagnostic" output="screen" >
+    <param name="sensor_name" value="right_lidar"  />
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="imu_diagnostic_node" name="imu_diagnostic" output="screen" >
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="camera_diagnostic_node" name="front_camera_diagnostic" output="screen" >
+    <param name="sensor_name" value="auto_center_camera" />
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="camera_diagnostic_node" name="left_rear_camera_diagnostic" output="screen" >
+    <param name="sensor_name" value="auto_left_camera" />
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="camera_diagnostic_node" name="right_rear_camera_diagnostic" output="screen" >
+    <param name="sensor_name" value="auto_right_camera" />
+  </node>
+
+  <node pkg="sensor_diagnostic" exec="gnss_diagnostic_node" name="gnss_diagnostic" output="screen" >
+  </node>
+</launch>
+
+<!-- launch-prefix="xterm -e gdb -ex=r args" -->
